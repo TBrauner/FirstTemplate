@@ -14,7 +14,6 @@ use Symfony\Component\HttpFoundation\Response;
  * @author tobias
  */
 class LuckyController {
-    //put your code here
     public function number(){
         
         $number = mt_rand(1, 10);
